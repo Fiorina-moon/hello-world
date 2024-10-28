@@ -1,0 +1,19 @@
+/* 全局覆盖 Element Plus 的默认按钮样式 */
+.el-button {
+    background-color: #42b983 !important; /* 主色 */
+    border-color: #42b983 !important;
+    color: #fff !important;
+  }
+  
+  .el-button--success {
+    background-color: #67c23a !important; /* 成功色 */
+    border-color: #67c23a !important;
+  }
+  
+  /* 覆盖其他组件 */
+  .el-alert--success {
+    background-color: #f0f9eb !important;
+    border-color: #67c23a !important;
+    color: #67c23a !important;
+  }
+  
